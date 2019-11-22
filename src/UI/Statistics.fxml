@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.StatisticsController">
+   <children>
+      <Label fx:id="maxDepthL" layoutX="89.0" layoutY="89.0" prefHeight="29.0" prefWidth="186.0" text="Label" />
+      <Label fx:id="timeL" layoutX="89.0" layoutY="232.0" prefHeight="29.0" prefWidth="186.0" text="Label" />
+      <Label fx:id="nodesExpL" layoutX="89.0" layoutY="198.0" prefHeight="29.0" prefWidth="186.0" text="Label" />
+      <Label fx:id="solutionDepthL" layoutX="89.0" layoutY="125.0" prefHeight="29.0" prefWidth="186.0" text="Label" />
+      <Label fx:id="costL" layoutX="89.0" layoutY="161.0" prefHeight="29.0" prefWidth="186.0" text="Label" />
+   </children>
+</AnchorPane>
